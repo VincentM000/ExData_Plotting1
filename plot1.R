@@ -15,7 +15,7 @@ subpower$Global_active_power <- as.numeric(subpower$Global_active_power)
 
 #plotting plot1
 png(filename = 'plot1.png', width = 480, height = 480, units='px')
-hist(subpower$Global_active_power, xlab = 'Global Active Power (kilowatt)', main = 'Global Active Power', col = 'red')
+hist(subpower$Global_active_power, xlab = 'Global Active Power (kilowatts)', main = 'Global Active Power', col = 'red')
 
 #closing device
 dev.off()
